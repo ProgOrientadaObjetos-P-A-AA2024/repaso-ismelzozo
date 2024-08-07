@@ -39,12 +39,13 @@ public class Ejecutor {
                 "Angela Watson", 350);
         arriendoSesiones.establecerValorSillas(10); // en $
         arriendoSesiones.establecerValorAmplificacion(20); // en $
-        
+        /* agrega los objetos los valores*/
         listaArriendos.add(arriendoComida);
         listaArriendos.add(arriendoComercial);
         listaArriendos.add(arriendoSesiones);
-        
+        /*listaArriendos.size() el tamaño de elementos dentro de un arrayList*/
         for (int i = 0; i < listaArriendos.size(); i++) {
+            /* listaArriendos.get(i) llama a todos los objetos de las subclases*/
             listaArriendos.get(i).establecerArriendoMensual(); // se llama al 
                                                             // métodos abstracto
             System.out.println(listaArriendos.get(i));

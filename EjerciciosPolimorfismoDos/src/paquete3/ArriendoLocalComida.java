@@ -16,6 +16,7 @@ public class ArriendoLocalComida extends Arriendo {
     private double iva;
     
     public ArriendoLocalComida(String nombre, double cuotaB){
+        
         super(nombre, cuotaB);
     }
     
